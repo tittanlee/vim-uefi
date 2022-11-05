@@ -3,5 +3,6 @@ augroup aslvim
   autocmd BufNewFile,BufRead *.asl set filetype=asl
   autocmd BufNewFile,BufRead *.asi set filetype=asl
   autocmd BufNewFile,BufRead *.dsl set filetype=asl
+  autocmd BufNewFile,BufRead *.esl set filetype=asl
 augroup END
 

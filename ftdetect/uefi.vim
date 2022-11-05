@@ -9,7 +9,8 @@ augroup uefivim
   autocmd BufNewFile,BufRead *.vfr set filetype=uefivfr
   autocmd BufNewFile,BufRead *.hfr set filetype=uefivfr
   autocmd BufNewFile,BufRead *.sd  set filetype=uefivfr
-  autocmd BufNewFile,BufRead *.c   set filetype=uefic
-  autocmd BufNewFile,BufRead *.h   set filetype=uefic
+  autocmd BufNewFile,BufRead *.sdl set filetype=uefisdl
+  " autocmd BufNewFile,BufRead *.c   set filetype=uefic
+  " autocmd BufNewFile,BufRead *.h   set filetype=uefic
 augroup END
 
